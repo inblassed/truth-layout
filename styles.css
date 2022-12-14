@@ -1,0 +1,163 @@
+body{
+  font-size: 16px;
+  font-family: 'Courier New', Courier, monospace;
+  background: #ddd;
+}
+
+.bebra{
+  font-weight: bold;
+}
+.qwer{
+  font-weight: lighter;
+}
+
+h1{
+  color: black;
+}
+
+h2{
+  color: black;
+}
+
+.media{
+  background:rgba(254, 181, 198, 0.3);
+  
+  border-radius: 10px;
+  
+  padding: 15px;
+  margin-bottom: 20px;
+  
+  
+  
+  
+}
+.hobby{
+  background: rgb(143, 243, 181 ,0.3);
+  border-radius:10px;
+}
+
+.work{
+  background: rgb(181, 181, 255 ,0.3);
+  border-radius:10px;
+}
+
+.call{
+  background:white;
+   border-radius:10px;
+   
+}
+
+.container{
+ margin: auto;
+ max-width: 750px;
+ padding-top: 30px;
+
+}
+
+.info p{
+  margin: 0;
+}
+
+.media h4{
+  margin-bottom: 15px;
+}
+.avatar{
+  width: 500px;
+  border-radius: 30px;
+  @media(max-width:650px) {
+    .info{
+      display:block;
+      text-align:center
+
+    }
+    
+  }
+    
+
+}
+
+.btn{
+  background:black;
+ 
+  color:white;
+  border-radius: 5px;
+  
+}
+
+
+a:hover{
+  color: red;
+  font-size: 18px;
+}
+a:visited{
+  color:white;
+}
+a:active{
+  color:orange
+}
+.btnNAME{
+  background: black;
+  color: white;
+  border-radius: 5px;
+}
+.btnEM{
+  background: black;
+  color: white;
+  border-radius: 5px;
+}
+
+.btnMES{
+  background: black;
+  color: white;
+  border-radius: 5px;
+}
+
+.navbar{
+  background: darkorchid;
+  margin-bottom: 10px;
+  border-radius: 12px;
+}
+
+.navbar ul{
+  list-style: none;
+  padding:0;
+  margin: 0;
+  display: flex;
+}
+
+.navbar ul li{
+  padding-right: 15px;
+  
+}
+
+.navbar ul li:hover{
+  background: yellowgreen;
+  font-size: 20px;
+
+}
+.form h2{
+  text-align: center;
+}
+.FORM label{
+  display: block;
+  font-size: 14px;
+
+}
+.FORM input,
+.FORM textarea
+{
+  border: none;
+  box-sizing: border-box;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  background: transparent;
+  color: black;
+  padding-bottom: 15px;
+  padding-left: 5px;
+}
+
+.navbar{
+  left: 0;
+  right: 0;
+  padding: 20px;
+}
